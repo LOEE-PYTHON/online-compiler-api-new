@@ -32,7 +32,7 @@ go to your root dir and create your docker file with required dependencies
 
 2. Run the container
 ```
-sudo docker run -p 3000:3000 online-compiler-api
+sudo docker run -p 4888:3000 online-compiler-api
 ```
 ### Starting API service on 3000 port (Make sure the port is not in use. If not change the port number in index.js).
 
