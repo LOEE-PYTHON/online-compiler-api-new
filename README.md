@@ -27,12 +27,12 @@ go to your root dir and create your docker file with required dependencies
 1. Build docker image (this may take some time)
 
  ```
- docker build -t online-compiler-api
+ sudo docker build -t online-compiler-api .
  ```
 
 2. Run the container
 ```
-docker run -p 3000:3000 online-compiler-api
+sudo docker run -p 3000:3000 online-compiler-api
 ```
 ### Starting API service on 3000 port (Make sure the port is not in use. If not change the port number in index.js).
 
